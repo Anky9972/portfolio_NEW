@@ -16,7 +16,8 @@ const Hero = () => {
       </div>
       <div className='w-full flex flex-col md:flex-row justify-center items-center gap-8 md:gap-10'>
         <button className='text-lg md:text-xl font-bold border-2 w-full md:w-auto px-4 py-2 border-black rounded-full flex justify-center items-center gap-2'>
-          Resume
+          <a href="https://drive.google.com/file/d/18xvP8mt1-qa7sFZY2-C64SmnqBYWBwhz/view?usp=sharing" target='_blank'>
+          Resume</a>
         </button>
         <button className='text-lg md:text-xl font-bold border-2 w-full md:w-auto px-4 py-2 border-black rounded-full flex justify-center items-center gap-2 bg-black text-white' onClick={()=>navigate('/contact')}>
           Let's Talk <FaArrowRightLong />
