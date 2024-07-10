@@ -23,9 +23,9 @@ const Hero = () => {
         </button>
       </div>
       <div className='w-full flex justify-center gap-4 md:gap-10 font-bold cursor-pointer underline'>
-        <span className='text-sm md:text-base hover:underline'>Github</span>
-        <span className='text-sm md:text-base hover:underline'>Linkedin</span>
-        <span className='text-sm md:text-base hover:underline'>Contact</span>
+        <a href='https://github.com/Anky9972' target='_blank' className='text-sm md:text-base hover:underline'>Github</a>
+        <a href='https://www.linkedin.com/authwall?trk=bf&trkInfo=AQGGKkTSN5pRxQAAAY9O1pXIBdJ3Ha5w6gxXStP38yNdw8hU97ZMk3E_5n1yhJEZYITeKrjn1m9CH1v5JPqH6KpKXbylKkpqAeINDHTHGH7qBrcRWg9URyrypLlr9RjqHec9xHA=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fvivek-gaur-12aa1a22b' target='_blank' className='text-sm md:text-base hover:underline'>Linkedin</a>
+        {/* <span className='text-sm md:text-base hover:underline'>Contact</span> */}
       </div>
       <div>
         <Clock/>
